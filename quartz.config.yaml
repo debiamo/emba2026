@@ -12,11 +12,11 @@ configuration:
     - templates
     - .obsidian
   theme:
-    fontOrigin: googleFonts
-    cdnCaching: true
+    fontOrigin: local
+    cdnCaching: false
     typography:
-      header: Inter
-      body: Source Sans Pro
+      header: Roboto Flex
+      body: Roboto Flex
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -98,6 +98,9 @@ plugins:
     order: 92
   - source: github:quartz-community/fonts
     enabled: true
+    options:
+      fontOrigin: local
+      useThemeFonts: false
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
