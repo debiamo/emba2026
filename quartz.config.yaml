@@ -12,8 +12,6 @@ configuration:
     - templates
     - .obsidian
   theme:
-    fontOrigin: local
-    cdnCaching: false
     typography:
       header: Roboto Flex
       body: Roboto Flex

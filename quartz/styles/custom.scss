@@ -1,1 +1,17 @@
 @use "./variables.scss" as *;
+
+@font-face {
+  font-family: 'Roboto Flex';
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url('./static/fonts/RobotoFlex-Cyrillic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto Flex';
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url('./static/fonts/RobotoFlex-Latin.woff2') format('woff2');
+}
