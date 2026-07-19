@@ -6,7 +6,7 @@ configuration:
   analytics:
     provider: plausible
   locale: ru-RU
-  baseUrl: embageodesy.com
+  baseUrl: debiamo.github.io/emba2026
   ignorePatterns:
     - private
     - templates
